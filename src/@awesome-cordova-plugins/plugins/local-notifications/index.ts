@@ -179,6 +179,11 @@ export interface ILocalNotificationAction {
   foreground?: boolean;
 
   /**
+   * Make this notification show when app in foreground.
+   */
+  notification_foreground?: boolean;
+
+  /**
    * Specifies whether the action causes the app to launch in the foreground
    */
   launch?: boolean;
@@ -475,6 +480,11 @@ export interface ILocalNotification {
    * Make this notification show when app in foreground.
    */
   foreground?: boolean;
+
+  /**
+   * Make this notification show when app in foreground.
+   */
+  notification_foreground?: boolean;
 }
 
 /**
